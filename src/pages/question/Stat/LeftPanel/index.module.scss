@@ -1,0 +1,21 @@
+.container {
+    min-height: 100%;
+    background-color: #fff;
+    overflow-y: auto;
+}
+.conponent-wrapper {
+    margin: 12px;
+    border: 1px solid #fff;
+    padding: 12px 6px;
+    border-radius: 3px;
+    &:hover {
+        border-color: #d9d9d9;
+    }
+}
+.selected {
+    border-color: #1890ff !important;
+}
+.component {
+    pointer-events: none; // 屏蔽鼠标点击行为
+    opacity: .8;
+}
